@@ -1,42 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anis Influencer Gear - Assignment 02</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-
-    <!-- Links of stylesheets -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <div class="container">
-
-        <!-- Header Design -->
-        <header>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Anis Influencer Gear - Assignment 02</title>
+      <link rel="shortcut icon" href="images/main-camera.png" type="image/x-icon">
+      <!-- Links of stylesheets -->
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <!-- Header Design -->
+         <header>
+            <div class="mobile-menu-icon">
+               <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
             <div>
-                <h2 class="logo"><a href="#">Influencer products</a></h2>
+               <h2 class="logo"><a href="#">Influencer products</a></h2>
             </div>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#"><i class="fas fa-search"></i></a></li>
-                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                </ul>
+               <ul>
+                  <li class="mobile-hide"><a href="#">Products</a></li>
+                  <li class="mobile-hide"><a href="#">Home</a></li>
+                  <li class="mobile-hide"><a href="#">Sign Up</a></li>
+                  <li class="mobile-hide"><a href="#">Login</a></li>
+                  <li><a href="#"><i class="fas fa-search"></i></a></li>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+               </ul>
             </nav>
-        </header>
-    </div>
-
-
-    <!-- js files -->
-    <script src="js/jquery-1.3.2.min.js"></script>
-    <script src="https://kit.fontawesome.com/744a52f149.js" crossorigin="anonymous"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/custom.js"></script>
-</body>
+         </header>
+         <!-- Main content part -->
+         <main>
+            <section class="container">
+               <!-- Journey section -->
+               <div class="journey-left">
+                  <h2 class="wow fadeIn">Start your <span>Journey</span> as <span> Influencer</span></h2>
+                  <p class="wow fadeIn" data-wow-delay="0.3s">If you are interesnted to join our team to becoming next successfull Influencer, you are at the right place! We will show you the path and will train you to make your dream true.</p>
+                  <a href="#" class="action-btn wow fadeIn" data-wow-delay="0.6s">Prebook Now <i class="fas fa-long-arrow-alt-right"></i></a>
+               </div>
+               <div class="journey-right wow fadeInRight">
+                  <img src="images/top-image.png" alt="Camera">
+               </div>
+            </section>
+            <!-- Brand Logos section -->
+            <div class="container brand-logos">
+               <img class="wow fadeIn" data-wow-delay="0.1s" src="logos/Alibaba.svg" alt="Logo">
+               <img class="wow fadeIn" data-wow-delay="0.2s" src="logos/Amazon.svg" alt="Logo">
+               <img class="wow fadeIn" data-wow-delay="0.3s" src="logos/daraz.svg" alt="Logo">
+               <img class="wow fadeIn" data-wow-delay="0.4s" src="logos/Ebay.svg" alt="Logo">
+               <img class="wow fadeIn" data-wow-delay="0.5s" src="logos/Rakuten.svg" alt="Logo">
+               <img class="wow fadeIn" data-wow-delay="0.6s" src="logos/Walmart.svg" alt="Logo">
+               <img class="wow fadeIn" data-wow-delay="0.7s" src="logos/Target.svg" alt="Logo">
+            </div>
+            <!-- Products section -->
+            <section class="products-seciton">
+               <h2 class="wow fadeIn">Popular Collection</h2>
+               <div class="grid-container">
+                  <div class="product wow fadeInUp">
+                     <a href="#"><img src="images/tripod.png" alt="Product Image"></a>
+                     <a href="#">
+                        <h2>Flex Tripod</h2>
+                     </a>
+                     <h3>$50.48</h3>
+                     <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>5.00</span>                            
+                     </p>
+                     <p class="shipping">Worldwid shifting <br> available</p>
+                     <p class="buyer-protection">Buyers protection possible!</p>
+                  </div>
+                  <div class="product wow fadeInUp" data-wow-delay="0.3s">
+                     <a href="#"><img src="images/mic.png" alt="Product Image"></a>
+                     <a href="#">
+                        <h2>Mirophone</h2>
+                     </a>
+                     <h3>$120.25</h3>
+                     <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star unchecked"></i>
+                        <span>4.00</span>                            
+                     </p>
+                     <p class="shipping">Worldwid shifting <br> available</p>
+                     <p class="buyer-protection">Buyers protection possible!</p>
+                  </div>
+                  <div class="product wow fadeInUp" data-wow-delay="0.6s">
+                     <a href="#"><img src="images/airpod.png" alt="Product Image"></a>
+                     <a href="#">
+                        <h2>Airbuds</h2>
+                     </a>
+                     <h3>$100.00</h3>
+                     <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>4.50</span>                            
+                     </p>
+                     <p class="shipping">Worldwid shifting <br> available</p>
+                     <p class="buyer-protection">Buyers protection possible!</p>
+                  </div>
+                  <div class="product wow fadeInUp" data-wow-delay="0.9s">
+                     <a href="#"><img src="images/drone.png" alt="Product Image"></a>
+                     <a href="#">
+                        <h2>Drone</h2>
+                     </a>
+                     <h3>$980.25</h3>
+                     <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>5.00</span>                            
+                     </p>
+                     <p class="shipping">Worldwid shifting <br> available</p>
+                     <p class="buyer-protection">Buyers protection possible!</p>
+                  </div>
+                  <div class="product wow fadeInUp" data-wow-delay="1.1s">
+                     <a href="#"><img src="images/lights.png" alt="Product Image"></a>
+                     <a href="#">
+                        <h2>Light Setup</h2>
+                     </a>
+                     <h3>$1200.00</h3>
+                     <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>4.60</span>                            
+                     </p>
+                     <p class="shipping">Worldwid shifting <br> available</p>
+                     <p class="buyer-protection">Buyers protection possible!</p>
+                  </div>
+                  <div class="product wow fadeInUp" data-wow-delay="1.3s">
+                     <a href="#"><img src="images/setup.png" alt="Product Image"></a>
+                     <a href="#">
+                        <h2>Photoshot Set</h2>
+                     </a>
+                     <h3>$820.40</h3>
+                     <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star unchecked"></i>
+                        <span>4.00</span>                            
+                     </p>
+                     <p class="shipping">Worldwid shifting <br> available</p>
+                     <p class="buyer-protection">Buyers protection possible!</p>
+                  </div>
+               </div>
+               <div class="see-more wow fadeIn">
+                  <p><a href="#">See More <i class="fas fa-long-arrow-alt-right"></i></a></p>
+               </div>
+            </section>
+            <!-- Product categories section -->
+            <section class="top-categories">
+               <h2 class="wow fadeIn">Top Product Categories</h2>
+               <div class="categories category-grid-container">
+                  <div class="category wow fadeInUp">
+                     <img src="images/airpod.png" alt="Category Image">
+                     <a href="#">
+                        <h3>Airpods(15)</h3>
+                     </a>
+                  </div>
+                  <div class="category wow fadeInUp" data-wow-delay="0.2s">
+                     <img src="images/setup.png" alt="Category Image">
+                     <a href="#">
+                        <h3>Light Setup(08)</h3>
+                     </a>
+                  </div>
+                  <div class="category wow fadeInUp" data-wow-delay="0.4s">
+                     <img src="images/drone.png" alt="Category Image">
+                     <a href="#">
+                        <h3>Camera(20)</h3>
+                     </a>
+                  </div>
+                  <div class="category wow fadeInUp" data-wow-delay="0.6s">
+                     <img src="images/mic.png" alt="Category Image">
+                     <a href="#">
+                        <h3>Accessories(12)</h3>
+                     </a>
+                  </div>
+               </div>
+               <div class="see-more-category wow fadeIn">
+                  <a href="#" class="action-btn">Explore More Categories <i class="fas fa-long-arrow-alt-right"></i></a>
+               </div>
+            </section>
+         </main>
+      </div>
+      <!-- Footer Design -->
+      <footer>
+         <h2>Influencer Products</h2>
+         <p>Copy&copy;2022 | Ansarul Anis | <a href="#">Influencer Products</a></p>
+         <p>All right reserved</p>
+         <p class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-globe"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+         </p>
+      </footer>
+      <!-- js files -->
+      <script src="js/jquery-1.3.2.min.js"></script>
+      <script src="https://kit.fontawesome.com/744a52f149.js" crossorigin="anonymous"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
 </html>
